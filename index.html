@@ -55,9 +55,13 @@
   <script src="js/main.js"></script>
   <script>
     $("#content").hide();
+    $("#header").hide();
+    $("#footer").hide();
     $(document).ready(function() {
       setTimeout(function(){ $(".load").fadeOut(); }, 1000);
       setTimeout(function(){ $("#content").fadeIn(); }, 1200);
+      setTimeout(function(){ $("header").fadeIn(); }, 1200);
+      setTimeout(function(){ $("footer").fadeIn(); }, 1200);
     });
   </script>
 </body>
