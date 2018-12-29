@@ -29,11 +29,11 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <header>
+  <header style="display:none;">
     <h2>James Blair</h2>
     <p>A testing website using Netlify & GitHub</p>
   </header>
-  <div id="content">
+  <div id="content" style="display:none;">
     <p>i like trains</p>
   </div>
   <div class="load"><img src="img/Blocks-1s-200px.gif"></div>
@@ -54,9 +54,6 @@
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
   <script>
-    $("#content").hide();
-    $("header").hide();
-    $("footer").hide();
     $(document).ready(function() {
       setTimeout(function(){ $(".load").fadeOut(); }, 1000);
       setTimeout(function(){ $("#content").fadeIn(); }, 1200);
