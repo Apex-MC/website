@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto');
+
 /*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
@@ -293,7 +295,16 @@ textarea {
 header {
     padding: 30px;
     text-align: center;
+    color: white;
     background: #159957;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header > h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+header > p {
+    font-family: 'Roboto', sans-serif;
 }
