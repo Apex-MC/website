@@ -22,6 +22,9 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
+  <div id="content">
+  This site is work in progress.
+  </div>
   <div class="load"><img src="img/Blocks-1s-200px.gif"></div>
   <style>
     .load > img {
@@ -42,6 +45,7 @@
   <script>
     $(document).ready(function() {
       setTimeout(function(){ $(".load").fadeOut(); }, 1000);
+      setTimeout(function(){ $("#content").fadeIn(); }, 1200);
     });
   </script>
 
