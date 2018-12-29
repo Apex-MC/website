@@ -290,6 +290,7 @@ textarea {
 
 #content > * {
     margin: 10px;
+    text-align: center;
 }
 
 header {
